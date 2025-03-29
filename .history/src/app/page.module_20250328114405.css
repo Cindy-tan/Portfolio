@@ -1,0 +1,20 @@
+.main {
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.screenOneContainer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--dark-pink);
+    height: 1080px;
+}
+
+.screenTwoContainer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--mid-pink);
+}

@@ -1,0 +1,66 @@
+.container {
+    padding-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+    width: 100vw; 
+    text-align: center; 
+    background-color: var(--light-pink); 
+    transition: background-color 1s ease; 
+    color: var(--dark-pink);
+}
+
+
+.activeSection {
+    background-color: var(--background); 
+}
+
+.button {
+    background-color: var(--dark-pink);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+.button a {
+    color: var(--background);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+.textContainer {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30rem;
+}
+
+.paragraph {
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    color: var(--mid-pink);
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    color: var(--dark-pink);
+    margin-bottom: 1rem;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -18rem;
+    margin-bottom: -10rem;
+}

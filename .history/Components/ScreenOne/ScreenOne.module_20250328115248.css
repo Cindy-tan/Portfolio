@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    text-align: center; /* Ensures text is centered */
+    background-color: var(--dark-pink); /* Keeps your background color */
+}
+
+.boldText {
+    font-weight: bold;
+}

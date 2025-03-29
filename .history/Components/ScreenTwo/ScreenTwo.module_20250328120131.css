@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    background-color: var(--dark-pink); /* Default background */
+    transition: background-color 1s ease; /* Smooth transition for background color */
+}
+
+.activeSection {
+    background-color: var(--mid-pink); /* Your desired background color when active */
+}
+
+.boldText {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+:root {
+  --background: #ffffff;
+  --dark-pink: #E5004B;
+  --mid-pink: #FA5274;
+  --light-pink: #F3D9DE;
+  --main-font: 'Poppins', sans-serif;
+  --font-size-small: 12px;
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+  background: var(--background);
+  font-family: var(--main-font);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    transition: background-color 1s ease; /* Smooth transition for background color */
+  }
+  
+  .activeSection {
+    background-color: #ff007f; /* Set your desired color for the active section */
+  }
+  

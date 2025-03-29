@@ -1,0 +1,24 @@
+.main {
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.screenOneContainer {
+    text-align: center;
+    background-color: var(--dark-pink);
+    height: 1080px;
+}
+
+.screenTwoContainer {
+    text-align: center;
+    background-color: var(--mid-pink);
+    height: 1080px;
+}
+.screenThreeContainer {
+    text-align: center;
+    background-color: var(--mid-pink);
+    height: 1080px;
+}

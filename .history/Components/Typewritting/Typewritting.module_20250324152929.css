@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* Overwriting styles for the navigation dots */
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span{
+    background: white;
+}

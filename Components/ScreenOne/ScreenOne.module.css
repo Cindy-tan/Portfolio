@@ -1,0 +1,31 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    text-align: center; 
+    background-color: var(--dark-pink); 
+}
+
+.boldText {
+    font-weight: bold;
+    font-family: var(--main-font);
+}
+
+.scrollSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+    font-family: var(--main-font);
+    color: var(--background);
+    animation: floating 3s ease-in-out infinite;
+
+}
+
+@keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }

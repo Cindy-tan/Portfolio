@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+    background-color: var(--mid-pink);
+    justify-content: center;
+}
+
+.boldText {
+    font-weight: bold;
+}
+

@@ -1,0 +1,9 @@
+.container {
+    text-align: center;
+    background-color: var(--dark-pink);
+}
+
+.boldText {
+    font-weight: bold;
+}
+

@@ -1,0 +1,24 @@
+import Image from "next/image";
+import Header from "../../Components/Headers/Header";
+import styles from "./page.module.css";
+
+
+export default function Home() {
+  return (
+    <>
+          <Header2/>
+          <main className={styles.main}>
+            
+            
+
+            
+          </main>
+          <footer className={styles.footer}>
+            
+            
+          </footer>
+        
+    </>
+    
+  );
+}
